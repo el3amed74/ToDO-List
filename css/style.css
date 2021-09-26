@@ -1,0 +1,59 @@
+body{
+    background-color: black;
+}
+#newList li{
+    list-style-position: inside;
+    list-style-type:lower-roman;
+    margin: 5px;
+    padding: 5px;
+}
+ol{
+    padding: 5px;
+    width: 470px;
+}
+li{
+    list-style-position: inside;
+    width: 450px;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px;
+    background-color: /*#20c997;*/#8540f5;
+}
+h1{
+    color: white;
+    border-radius: 5px;
+    background-color: #8540f5;
+}
+span{
+    color: #8540f5;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.bt{
+    background-color: #8540f5;
+    color: white;
+    border-radius: 5px;
+}
+@media (max-width:767px) {
+    .listName{
+        margin-right: 94px;    
+    }
+    .itemsname{
+        margin-right: 39px;
+    }
+    .removenumber{
+        margin-right: 15px;
+    }
+    footer{
+        height: 150px;
+        /* margin-bottom: 80px; */
+    }
+    ol{
+        width: 350px;
+    }
+    li{
+        width: 330px;
+    }
+}

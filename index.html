@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" href="list.svg">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="container">
+        <form class="text-center mt-2 edit">
+            <input type="text" name="" id="listName" placeholder="List Name" class="mb-2 listName">
+            <input type="text" name="" id="items" placeholder="want to do" class="mb-2 itemsname">
+            <input type="button" value="add" class="bt" onclick="doList()">
+            <input type="number" name="" id="remove" placeholder="number to remove" class="removenumber">
+            <input type="button" value="remove" class="bt" onclick="Remove() ">
+            <br><br>
+            <input type="button" value="save" class="bt" onclick="save() ">
+            
+        </form>
+        <ol id="newList" >
+        </ol> 
+        <div id="display">
+            <h1 class="text-center mt-2">lists</h1>
+            
+        </div>
+    </div>
+    <footer></footer>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/control.js"></script>
+</body>
+</html>
